@@ -1,0 +1,230 @@
+
+.header {
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 5px 5px #ddd;
+}
+.header-content{
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+}
+.h-left{
+    height: 150px;
+}
+.h-logo>img{
+    width: 100px;
+    height: 100px;
+}
+.h-list{
+    width: 300px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.h-list>ul>li{
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0 15px;
+    position: relative;
+}
+.active{
+    border-bottom: 2px solid #000;
+}
+.h-right{
+    width: 400px;
+    height: 150px;
+    line-height: 150px;
+}
+.h-search{
+    width: 400px;
+    height: 30px;
+    margin: 55px;
+    position: relative;
+    left:-100px;
+    top: 0;
+}
+.h-search>input{
+    width: 320px;
+    height: 30px;
+    float: left;
+}
+.h-search>button{
+    width: 70px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    float: left;
+    border: 1px solid #000;
+}
+.h-search>button:hover{
+    cursor: pointer;
+}
+
+/*  */
+
+.center {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-bottom: 100px;
+}
+
+.slideshow {
+    padding-top: 30px;
+    position: relative;
+}
+
+.imgshow {
+    width: 1000px;
+    height: 400px;
+    padding-bottom: 0;
+    background: #fff;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 20px 20px;
+    overflow: hidden;
+}
+
+.imglast {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    color: #aaa;
+    background-color: #ccc;
+    box-sizing: border-box;
+    border-radius: 50% 50%;
+    /* display: none; */
+}
+
+.imgnext {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    font-size: 30px;
+    color: #aaa;
+    background-color: #ccc;
+    box-sizing: border-box;
+    border-radius: 50% 50%;
+    /* display: none; */
+}
+
+.img-box {
+    position: relative;
+    width: 3438px;
+}
+
+.img-box>ul {}
+
+.img-box>ul>li {
+    float: left;
+}
+
+.img-box>ul>li>a>img {
+    width: 1000px;
+    height: 400px;
+    vertical-align: bottom;
+}
+
+.list-item {
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -8%;
+}
+
+.list-item>span {
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    background-color: #999;
+    margin: 0 10px;
+}
+/* shopList */
+.content{
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #eee;
+}
+#shopClass{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.shopList{
+    width: 1000px;
+    background-color: rgb(175, 194, 252);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 10px 10px;
+    box-shadow: 0 0 3px #ccc;
+}
+.item{
+    width: 180px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #eaeaea;
+    box-shadow: 0 0 3px #ccc;
+}
+.item>img{
+    width: 150px;
+    height: 150px;
+}
+.item>h4{
+    font-size: 14px;
+    line-height: 40px;
+}
+.item>p{
+    line-height: 20px;
+    font-size: 12px;
+    color: red;
+}
+/* 返回顶部动画 */
+.back{
+    width: 50px;
+    height: 50px;
+    font-size: 60px;
+    color: #aaa;
+    background: #ccc;
+    position: fixed;
+    bottom:200px ;
+    right:100px ;
+    text-align: center;
+}
+
+/* 菜单栏 */
+.bar{
+    width: 1000px;
+    height: 40px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.bar>ul>li{
+    display: inline-block;
+    margin: 0 40px;
+    padding: 3px 10px;
+    border-radius: 11px 11px;
+}
+.bar>ul>li:hover{
+    cursor: pointer;
+}
+.active1{
+    background-color: rgb(148, 127, 127);
+}
