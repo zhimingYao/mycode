@@ -158,14 +158,20 @@ function render(data) {
     content.innerHTML += htmlStr;
 }
 var page = document.querySelector('body');
-window.onscroll = function (e) {
-    console.log(window.innerHeight, scrollY, page.scrollHeight);
-    var height = Math.floor(window.innerHeight + scrollY)+10 ;
-    var total = page.scrollHeight;
-    if(height >= total ){
-        request();
+var flag = true;
+if (flag) {
+    window.onscroll = function (e) {
+        flag = false;
+        console.log(window.innerHeight, scrollY, page.scrollHeight);
+        var height = Math.floor(window.innerHeight + scrollY) + 10;
+        var total = page.scrollHeight;
+        if (height >= total) {
+            request();
+            flag = true;
+        }
     }
 }
+
 
 /* 回到顶部动画 */
 var flag = true;
