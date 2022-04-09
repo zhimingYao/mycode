@@ -18,7 +18,6 @@ btn.addEventListener('click',function (e) {
     }
     console.log('输入正确');
     // window.open('../HTML/index.html',target='_self')
-    lacation.href = '../HTML/index.html';
-    
-
+    location.href = '../HTML/index1.html';
+    localStorage.setItem('token',123456)
 })
