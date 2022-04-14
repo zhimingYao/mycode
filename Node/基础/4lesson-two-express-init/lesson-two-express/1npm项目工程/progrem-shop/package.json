@@ -1,0 +1,20 @@
+{
+    "name": "progrem-shop",
+    "version": "1.0.0",
+    "description": "初始化npm工程",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error:no test specified\"&&exit 1",
+        "node": "rd /s/q src && node ./app.js"
+    },
+    "keywords": [
+        ""
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jquery": "^3.6.0",
+        "vue": "^3.2.31"
+    },
+    "dependencies": {}
+}
